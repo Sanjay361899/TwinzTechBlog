@@ -1,0 +1,86 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar */
+.navbarLogo {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+}
+
+.drawerLink {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.NavbarDownLi {
+    list-style: none;
+    transition: 0.3s;
+}
+
+/* .NavbarDownLi:hover .NavbarDownLink {
+    border-bottom: 2px solid green;
+} */
+.NavbarDownLink {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    padding: 0px 12px;
+}
+.social_text{
+    color: #fff;
+    text-align: center;
+}
+.social_main{
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+.social_button {
+    background-color: rgba(255,255,255,.15) !important;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 1px solid !important;
+    font-size: 20px !important;
+    padding: 5px !important;
+    transition: 0.4s ease-in-out;
+}
+
+.social_button:hover {
+    font-size: 24px !important;
+    padding: 2px !important;
+}
+.header_social{
+    width: 38px;
+    height: 38px;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 20px !important;
+    background: rgba(255,255,255,.15) !important;
+    transition: 0.4s ease-in-out;
+}
+.facebook:hover {
+    background: #3b5997 !important;
+    font-size: 22px !important;
+    padding: 8px !important;
+}
+.twitter:hover{
+    background: #00aced !important;
+    font-size: 22px !important;
+    padding: 8px !important;
+}
+.instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+    font-size: 22px !important;
+    padding: 8px !important;
+}
